@@ -1,19 +1,12 @@
-class TypesOfFood extends React.Component {
+class MyComponent extends React.Component {
   constructor(props) {
     super(props);
   }
   render() {
-    return (
-      <div>
-        <h1>Types of Food:</h1>
-        {/* change code below this line */}
-        <Fruits />
-        <Vegetables />
-        {/* change code above this line */}
-      </div>
-    );
+    return <h1>My First React Component!</h1>;
   }
 }
 
 // change code below this line
-ReactDOM.render(<TypesOfFood />, document.getElementById("challenge-node"));
+
+ReactDOM.render(<MyComponent />, document.getElementById("challenge-node"));

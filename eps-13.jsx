@@ -3,13 +3,10 @@ class MyComponent extends React.Component {
     super(props);
   }
   render() {
-    return (
-      <div>
-        <h1>My First React Component!</h1>
-      </div>
-    );
+    return <h1>My First React Component!</h1>;
   }
 }
 
 // change code below this line
-ReactDOM.render(<MyComponent />, document.getElementById("root"));
+
+ReactDOM.render(<MyComponent />, document.getElementById("challenge-node"));

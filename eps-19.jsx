@@ -21,7 +21,7 @@ class Welcome extends React.Component {
   render() {
     return (
       <div>
-        {/* Access name prop here */}
+        {/*Mengakses Nama Props*/}
         <p>
           Hello, <strong>{this.props.name}</strong>!
         </p>

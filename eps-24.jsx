@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 class OnlyEvens extends React.Component {
   constructor(props) {
     super(props);
@@ -38,5 +39,39 @@ class Controller extends React.Component {
         <OnlyEvens value={this.state.value} />
       </div>
     );
+=======
+class MyComponent extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      visibility: false,
+    };
+    // Change code below this line
+    this.toggleVisibility = this.toggleVisibility.bind(this);
+    // Change code above this line
+  }
+  // Change code below this line
+  toggleVisibility() {
+    this.setState((state) => ({
+      visibility: !state.visibility,
+    }));
+  }
+  // Change code above this line
+  render() {
+    if (this.state.visibility) {
+      return (
+        <div>
+          <button onClick={this.toggleVisibility}>Click Me</button>
+          <h1>Now you see me!</h1>
+        </div>
+      );
+    } else {
+      return (
+        <div>
+          <button onClick={this.toggleVisibility}>Click Me</button>
+        </div>
+      );
+    }
+>>>>>>> 71b100cd62d1b94053b3f1ddb90ad7f239f49e14
   }
 }

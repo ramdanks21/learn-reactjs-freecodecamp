@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 // Change code above this line
 const styles = {
   color: "purple",
@@ -11,7 +11,7 @@ class Colorful extends React.Component {
     return <div style={styles}>Style Me!</div>;
     // Change code above this line
   }
-=======
+
 class ControlledInput extends React.Component {
   constructor(props) {
     super(props);
@@ -52,5 +52,5 @@ class ControlledInput extends React.Component {
       </div>
     );
   }
->>>>>>> 71b100cd62d1b94053b3f1ddb90ad7f239f49e14
+
 }
